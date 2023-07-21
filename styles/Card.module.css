@@ -1,0 +1,69 @@
+/* @import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css); */
+
+.widget {
+    display: flex;
+    height: 400px;
+    width: 650px;
+    flex-wrap: wrap;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3),
+      0 17px 17px 0 rgba(0, 0, 0, 0.15);
+    position: relative;
+    bottom: 70px;
+}
+
+.widget .weatherIcon {
+    flex: 1 100%;
+    height: 50%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: #fafafa;
+    font-family: weathericons;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 100px;
+}
+
+.searchTerm{
+    width: 60%;
+    height: 10%;
+    position: relative;
+    left: 40px;
+    background-color: aliceblue;
+    color: black;
+    display: inline-block;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 25px;
+  }
+  .searchbutton{
+    background-color: skyblue;
+    width: 100px;
+    height: 50%;
+    display: inline-block;
+    border-radius: 5%;
+    border: 1px solid black;
+    margin: 20px;
+    position: relative;
+    left: 3%;
+    color: black;
+  }
+  
+  .searchbutton:hover{
+    background-color: blue;
+    cursor: pointer;
+  } 
+  
+.reset{
+    color: black;
+    position: relative;
+    left: 15px;
+}
+
+.searchbar{
+  position: relative;
+  bottom: 70px;
+}
