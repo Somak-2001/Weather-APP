@@ -50,7 +50,7 @@ const AboutUs = () => {
 
         <div className="w-1/4 bg-purple-200 p-5 rounded-md">
           <h3 className="text-2xl font-semibold font-mono text-blue-900 m-1">Join Us on Our Journey</h3>
-          <span>Since our launch in [year], we have grown into a vibrant community of weather enthusiasts, travelers, and everyday users who rely on our platform for accurate weather information. We are constantly innovating and expanding our services to serve you better. Join us on our journey as we continue to evolve and improve WeatherNow.</span>
+          <span>Since our launch in 2023, we have grown into a vibrant community of weather enthusiasts, travelers, and everyday users who rely on our platform for accurate weather information. We are constantly innovating and expanding our services to serve you better. Join us on our journey as we continue to evolve and improve WeatherNow.</span>
         </div>
       </div>
     </div>

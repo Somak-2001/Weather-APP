@@ -7,7 +7,7 @@ const FormCard = () => {
     const [message, setMessage] = useState('');
     const handleSubmit = (e) => {
         e.preventDefault();
-        alert('Contact Details Submitted');
+        alert('Your problems Submitted. We will take actions on it');
     }
     return (
         <div className="mr-10">
